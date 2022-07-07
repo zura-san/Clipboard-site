@@ -2,7 +2,7 @@
   "name": "tailwind-starter",
   "version": "1.0.0",
   "description": "'tailwind starter files'",
-  "main": "index.js",
+  "main": "./dist/index.html",
   "scripts": {
     "build": "tailwindcss -i ./input.css -o ./css/style.css",
     "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
